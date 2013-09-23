@@ -51,7 +51,7 @@
 				        </ul>
 				      </li>
       			</ul>
-				<p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Moshe Plotkin</a></p>
+				<p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Jaime Latorre</a></p>
 			</div>
 		</div>
 	</div>
