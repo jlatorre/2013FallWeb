@@ -5,6 +5,8 @@
 	
 	<h2>Users</h2>
 	<table class="table">
+		
+		<thead>
 		<tr>
 			
 			<th>First Name</th>
@@ -26,8 +28,16 @@
 			</td>
 		</tr>
 		<? endforeach ?>
+	</thead>
 	</table>
-	
-	
 </div>
 
+<? function $scripts(){ ?>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"></script>
+	<script type="text/javascript">
+		$(".table").dataTable();
+		
+	</script>
+	
+	
+	}
